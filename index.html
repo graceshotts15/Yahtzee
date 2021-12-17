@@ -17,21 +17,52 @@
     Yahtzee
 </h1>
 
-    <img src="1.png" id="1" alt-"One" class="center" height="100" width="100"/>
-    <button onclick=" " type="button">Lock</button>
-    <img src="1.png" id="2" alt-"One" class="center" height="100" width="100"/>
-    <button onclick=" " type="button">Lock</button>
-    <img src="1.png" id="3" alt-"One" class="center" height="100" width="100"/>
-    <button onclick=" " type="button">Lock</button>
-    <img src="1.png" id="4" alt-"One" class="center" height="100" width="100"/>
-    <button onclick=" " type="button">Lock</button>
-    <img src="1.png" id="5" alt-"One" class="center" height="100" width="100"/>
-    <button onclick=" " type="button">Lock</button>
+    <img src="1.png" id="1" alt-"One" value = "1" class="center" height="100" width="100"/>
+    <button onclick="Dice1()" id="b1" type="button">Lock</button>
 
-    <button onclick="Roll1(), Roll2(), Roll3(), Roll4(), Roll5()" type="button">Roll</button>
+    <img src="1.png" id="2" alt-"One" value = "1" class="center" height="100" width="100"/>
+    <button onclick="Dice2()" id="b2" type="button">Lock</button>
+
+    <img src="1.png" id="3" alt-"One" value = "1" class="center" height="100" width="100"/>
+    <button onclick="Dice3()" id="b3" type="button">Lock</button>
+
+    <img src="1.png" id="4" alt-"One" value = "1" class="center" height="100" width="100"/>
+    <button onclick="Dice4()" id="b4" type="button">Lock</button>
+
+    <img src="1.png" id="5" alt-"One" value = "1" class="center" height="100" width="100"/>
+    <button onclick="Dice5()" id="b5" type="button">Lock</button>
+
+    <button onclick="Roll1()" type="button">Roll</button>
 
 
-    <img src="card2.png" id="card" alt-"card" class="card" 1000" width="500"/>
+    
+
+
+    <div class="scores">
+      <img src="card2.png" id="card" alt-"card" class="card" 1000" width="500"/>
+      <button onclick="Checker1();ResetScores()" class ="one" id="score1" type ="button">0</button>
+      <button onclick="Checker2();ResetScores()" class ="two" id="score2" type ="button">0</button>
+      <button onclick="Checker3();ResetScores()" class ="three" id="score3" type ="button">0</button>
+      <button onclick="Checker4();ResetScores()" class ="four" id="score4" type ="button">0</button>
+      <button onclick="Checker5();ResetScores()" class ="five" id="score5" type ="button">0</button>
+      <button onclick="Checker6();ResetScores()" class ="six" id="score6" type ="button">0</button>
+      <button class ="tot" id="score7" type ="button">0</button>
+      <button onclick="Checker8();ResetScores()" class ="tok" id="score8" type ="button">0</button>
+      <button onclick="Checker9();ResetScores()" class ="fok" id="score9" type ="button">0</button>
+      <button onclick="Checker10();ResetScores()" class ="fh" id="score10" type ="button">0</button>
+      <button onclick="Checker11();ResetScores()" class ="ss" id="score11" type ="button">0</button>
+      <button onclick="Checker12();ResetScores()" class ="ls" id="score12" type ="button">0</button>
+      <button onclick="Checker13();ResetScores()" class ="ya" id="score13" type ="button">0</button>
+      <button onclick="Checker14();ResetScores()" class ="ch" id="score14" type ="button">0</button>
+      <button onclick="Checker15();ResetScores()" class ="yab" id="score15" type ="button">0</button>
+      <button class ="gt" id="score16" type ="button">0</button>
+    </div>
+   
+   
+
+
+
+
 
 
     <p> To access the HELP page, click<a href= "page2.html" > here.</a></p>
@@ -39,3 +70,4 @@
 
 
 </body>
+
