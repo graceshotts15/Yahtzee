@@ -6,3 +6,326 @@ background-color: #3f3b3b; }
     margin: auto 1150px;
 
 }
+
+.scores {
+    position: relative;
+    width: 50%;
+  }
+  
+  /* Make the image responsive */
+  .scores img {
+    width: 50%;
+    height: auto;
+  }
+  
+  /* Style the button and place it in the middle of the container/image */
+  .scores .one {
+    position: absolute;
+    top: 9.60%;
+    right: -72%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .scores .one:hover {
+    background-color: black;
+  }
+
+  .scores:focus {
+    background-color: #DC143C;
+  }
+
+    /* Style the button and place it in the middle of the container/image */
+    .scores .two {
+        position: absolute;
+        top: 15.05%;
+        right: -72%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #555;
+        color: white;
+        font-size: 16px;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      
+      .scores .two:hover {
+        background-color: black;
+      }
+
+          /* Style the button and place it in the middle of the container/image */
+    .scores .three {
+        position: absolute;
+        top: 20.55%;
+        right: -72%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #555;
+        color: white;
+        font-size: 16px;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      
+      .scores .three:hover {
+        background-color: black;
+      }
+      
+          /* Style the button and place it in the middle of the container/image */
+    .scores .four {
+        position: absolute;
+        top: 26.10%;
+        right: -72%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #555;
+        color: white;
+        font-size: 16px;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      
+      .scores .four:hover {
+        background-color: black;
+      }
+
+
+      .scores .five {
+        position: absolute;
+        top: 32.55%;
+        right: -72%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #555;
+        color: white;
+        font-size: 16px;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      
+      .scores .five:hover {
+        background-color: black;
+      }
+
+      .scores .six {
+        position: absolute;
+        top: 38.1%;
+        right: -72%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #555;
+        color: white;
+        font-size: 16px;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      
+      .scores .six:hover {
+        background-color: black;
+      }
+
+      .scores .tot {
+        position: absolute;
+        top: 44.0%;
+        right: -72%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #555;
+        color: white;
+        font-size: 16px;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      
+      .scores .tot:hover {
+        background-color: black;
+      }
+
+      .scores .tok {
+        position: absolute;
+        top: 49.70%;
+        right: -72%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #555;
+        color: white;
+        font-size: 16px;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      
+      .scores .tok:hover {
+        background-color: black;
+      }
+
+      .scores .fok {
+        position: absolute;
+        top: 55.50%;
+        right: -72%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #555;
+        color: white;
+        font-size: 16px;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      
+      .scores .fok:hover {
+        background-color: black;
+      }
+
+      .scores .fh {
+        position: absolute;
+        top: 61.50%;
+        right: -72%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #555;
+        color: white;
+        font-size: 16px;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      
+      .scores .fh:hover {
+        background-color: black;
+      }
+
+      .scores .ss {
+        position: absolute;
+        top: 67.40%;
+        right: -72%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #555;
+        color: white;
+        font-size: 16px;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      
+      .scores .ss:hover {
+        background-color: black;
+      }
+
+      .scores .ls {
+        position: absolute;
+        top: 73.3%;
+        right: -72%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #555;
+        color: white;
+        font-size: 16px;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      
+      .scores .ls:hover {
+        background-color: black;
+      }
+
+      .scores .ya {
+        position: absolute;
+        top: 79.1%;
+        right: -72%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #555;
+        color: white;
+        font-size: 16px;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      
+      .scores .ya:hover {
+        background-color: black;
+      }
+
+      .scores .ch {
+        position: absolute;
+        top: 84.8%;
+        right: -72%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #555;
+        color: white;
+        font-size: 16px;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      
+      .scores .ch:hover {
+        background-color: black;
+      }
+
+      .scores .yab {
+        position: absolute;
+        top: 90.5%;
+        right: -72%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #555;
+        color: white;
+        font-size: 16px;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      
+      .scores .yab:hover {
+        background-color: black;
+      }
+
+      .scores .gt {
+        position: absolute;
+        top: 96.4%;
+        right: -72%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #555;
+        color: white;
+        font-size: 16px;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      
+      .scores .gt:hover {
+        background-color: black;
+      }
